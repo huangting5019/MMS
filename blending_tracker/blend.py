@@ -5,6 +5,8 @@ from matplotlib import pyplot as plt
 def nop(x):
   pass
 
+#new version stand-by.
+
 cv2.namedWindow('Blending')
 
 cv2.createTrackbar("Alpha", "Blending" , 0,10, nop)
